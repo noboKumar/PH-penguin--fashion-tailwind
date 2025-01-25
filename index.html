@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>panguin-fashion</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
+    <style>
+      .font-bebas-neue {
+        font-family: "Bebas Neue", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .font-roboto {
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body class="max-w-7xl mx-auto font-roboto bg-[#FFFBF0]">
+    <header>
+      <nav
+        class="flex items-center justify-between mt-10 mb-5 max-sm:flex-col mx-4"
+      >
+        <div class="nav-icon w-48">
+          <img src="./assets/icons/logo.png" alt="" />
+        </div>
+        <div class="nav-content">
+          <ul class="list-none flex gap-12 font-medium text-[#3C3C3C]">
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Product</li>
+            <li><a href=""></a>About us</li>
+            <li><a href=""></a>contact us</li>
+          </ul>
+        </div>
+      </nav>
+      <section
+        class="banner flex items-center justify-between max-sm:flex-col mx-4"
+      >
+        <div class="banner-content">
+          <h1 class="text-7xl font-bebas-neue">
+            <span class="text-[#FABE4C]">Be the Penguins</span> <br />
+            <span class="text-[#363958]">of Winter</span>
+          </h1>
+          <p class="text-base text-[#3E3E3E] mb-2">
+            Lorem Ipsum is simply dummy text of the printing <br />
+            and typesetting industry.
+          </p>
+          <button
+              class="bg-gradient-to-b from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-lg cursor-pointer flex items-center justify-between gap-2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="fill-white w-5 h-5"
+                viewBox="0 0 24 24"
+              >
+                <title>cart</title>
+                <path
+                  d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"
+                />
+              </svg>
+              <span class="font-medium text-[#FFFFFF]">BUY NOW</span>
+          </button>
+        </div>
+        <div class="banner-img">
+          <img src="./assets/images/model.png" alt="" />
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
