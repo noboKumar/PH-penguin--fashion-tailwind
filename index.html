@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>panguin-fashion</title>
+    <!-- tailwind link -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- icon link -->
     <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
     <style>
       .font-bebas-neue {
@@ -79,7 +82,7 @@
     </header>
     <main>
       <!-- woman jacket section -->
-      <section class="woman-jacket max-sm:mx-4">
+      <section class="woman-jacket max-sm:mx-4 mt-40">
         <div class="w-jacket-content">
           <h1 class="font-bebas-neue text-5xl text-[#363958] mb-5 max-sm:text-center">
             W0MAN JACKET
@@ -88,7 +91,7 @@
         <div
           class="w-jacket-box-container flex items-center justify-center gap-7 max-sm:flex-col mx-1"
         >
-          <div class="w-jacket-box shadow-xl p-4">
+          <div class="w-jacket-box shadow-xl p-4 rounded-3xl">
             <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="./assets/images/jacket-1.png" alt="" />
             <h1 class="text-2xl font-bold text-[#363958] mt-4">Yellow Coat Jacket</h1>
             <p class="text-[#3E3E3E] my-3">
@@ -114,7 +117,7 @@
               </button>
             </div>
           </div>
-          <div class="w-jacket-box shadow-xl p-4 ">
+          <div class="w-jacket-box shadow-xl p-4 rounded-3xl">
             <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="./assets/images/jacket-2.png" alt="" />
             <h1 class="text-2xl font-bold text-[#363958] mt-4">Ladies Jacket</h1>
             <p class="text-[#3E3E3E] my-3">
@@ -140,7 +143,7 @@
               </button>
             </div>
           </div>
-          <div class="w-jacket-box shadow-xl p-4">
+          <div class="w-jacket-box shadow-xl p-4 rounded-3xl">
             <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="./assets/images/jacket-3.png" alt="" />
             <h1 class="text-2xl font-bold text-[#363958] mt-4">Woman Leather Jacket</h1>
             <p class="text-[#3E3E3E] my-3">
@@ -168,7 +171,136 @@
           </div>
         </div>
       </section>
+      <!-- man jacket section -->
+      <section class="woman-jacket max-sm:mx-4 mt-40">
+        <div class="w-jacket-content">
+          <h1 class="font-bebas-neue text-5xl text-[#363958] mb-5 max-sm:text-center">
+            MAN JACKET
+          </h1>
+        </div>
+        <div
+          class="w-jacket-box-container flex items-center justify-center gap-7 max-sm:flex-col mx-1"
+        >
+          <div class="w-jacket-box shadow-xl p-4 rounded-3xl">
+            <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="./assets/images/jacket-4.png" alt="" />
+            <h1 class="text-2xl font-bold text-[#363958] mt-4">Snowboard Jacket Mens</h1>
+            <p class="text-[#3E3E3E] my-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="btn-container flex justify-between">
+              <p class="text-[#FABE4C] text-4xl font-black">$234</p>
+              <button
+                class="bg-gradient-to-b from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-lg cursor-pointer flex items-center justify-between gap-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="fill-white w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <title>cart</title>
+                  <path
+                    d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"
+                  />
+                </svg>
+                <span class="font-medium text-[#FFFFFF]">BUY NOW</span>
+              </button>
+            </div>
+          </div>
+          <div class="w-jacket-box shadow-xl p-4 rounded-3xl">
+            <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="./assets/images/jacket-5.png" alt="" />
+            <h1 class="text-2xl font-bold text-[#363958] mt-4">Man Leather Jackets</h1>
+            <p class="text-[#3E3E3E] my-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="btn-container flex justify-between">
+              <p class="text-[#FABE4C] text-4xl font-black">$234</p>
+              <button
+                class="bg-gradient-to-b from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-lg cursor-pointer flex items-center justify-between gap-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="fill-white w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <title>cart</title>
+                  <path
+                    d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"
+                  />
+                </svg>
+                <span class="font-medium text-[#FFFFFF]">BUY NOW</span>
+              </button>
+            </div>
+          </div>
+          <div class="w-jacket-box shadow-xl p-4 rounded-3xl">
+            <img class="bg-[#F1F1F1] p-5 rounded-3xl" src="./assets/images/jacket-6.png" alt="" />
+            <h1 class="text-2xl font-bold text-[#363958] mt-4">Man Casual Jackets</h1>
+            <p class="text-[#3E3E3E] my-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="btn-container flex justify-between">
+              <p class="text-[#FABE4C] text-4xl font-black">$234</p>
+              <button
+                class="bg-gradient-to-b from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-lg cursor-pointer flex items-center justify-between gap-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="fill-white w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <title>cart</title>
+                  <path
+                    d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"
+                  />
+                </svg>
+                <span class="font-medium text-[#FFFFFF]">BUY NOW</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="flex justify-between items-center mt-28 max-sm:flex-col-reverse mx-4 gap-9">
+      <!-- side card section -->
+      <div>
+        
+        <div class="flex  shadow-lg p-5 gap-7 rounded-3xl mb-6">
+          <div>
+            <img class="w-16" src="./assets/icons/house.png" alt="">
+          </div>
+          <div>
+            <h1 class="text-[#363958] font-bold text-2xl">Find the Perfect Fit</h1>
+            <p class="text-[#3E3E3E] mt-4">Everybody is different, which is why we <br>
+              offer styles for every body.</p>
+          </div>
+        </div>
+        
+        
+        <div class="flex shadow-lg p-5 gap-7 rounded-3xl mb-6">
+          <div>
+            <img class="w-16" src="./assets/icons/box.png" alt="">
+          </div>
+          <div>
+            <h1 class="text-[#363958] font-bold text-2xl">Free Exchanges</h1>
+            <p class="text-[#3E3E3E]">One of the many reasons you can shop
+              with peace of mind.</p>
+          </div>
+        </div>
+        <div class="flex shadow-lg p-5 gap-7 rounded-3xl mb-6">
+          <div>
+            <img class="w-16" src="./assets/icons/question.png" alt="">
+          </div>
+          <div>
+            <h1 class="text-[#363958] font-bold text-2xl">Contact Our Seller</h1>
+            <p class="text-[#3E3E3E]">They are here to help you. That's quite 
+              literally what we pay them for.</p>
+          </div>
+        </div>
+      </div>
+      <!-- footer photo -->
+        <img class="w-6/12" src="./assets/images/shopping.png" alt="">
+    </footer>
   </body>
 </html>
